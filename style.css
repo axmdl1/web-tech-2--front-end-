@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: #212529;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 0 50px; 
+}
+
+.navbar h2{
+    color: #e79819;
+    font-weight: 600;
+    position: absolute;
+    top: auto;
+    left: 0;
+    margin-left: 25px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 40px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a{
+    color: #ffb742; 
+}
+
+.main{
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.main h4{
+    font-size: 33px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main h4 span{
+    color: #ffb742;
+}
+
+.main p.title{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.main img{
+    width: 200px;
+    border-radius: 100%;
+    height: 250px;
+}
+
+.abtme{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding-left: 15px;
+    color: #fff;
+    text-align: center;
+    width: 900px;
+}
+
+.skills{
+    margin-top: 5px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.skills .item{
+    background: #3c3f45;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skills .item:hover{
+    border-color: #ffb742;
+}
+
+.skills .item .icon{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.skills .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.skills .item span{
+    color: #ffb742;
+}
+
+/*Hobbies page css*/
+
+.Hobbies_p{
+    margin-top: 150px;
+}
+
+.myHobby{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.myHobby h3{
+    color: #ff0000;
+    padding: 0 15px;
+    font-size: 30px;
+}
+
+.myHobby p{
+    color: #fff;
+    font-size: 20px;
+    margin: 15px;
+    padding: 0 15px;
+}
+
+.hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.hobbies td h4{
+    color: #ffb742;
+    margin: 2.25%;
+    margin-left: 20px;
+    font-size: 25px; 
+    display: inline-block;
+    text-align: center;
+}
+
+.hobbies td p{
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    justify-content: space-between;
+    height: 150px;
+    width: 400px;
+}
+
+.hobbies td img{
+    margin-left: 40px;
+}
+
+.footer{
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #ffb742;
+}
+
+
+
+
+/*contact me page css */
+
+.contactme_p{
+    margin-top: 250px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

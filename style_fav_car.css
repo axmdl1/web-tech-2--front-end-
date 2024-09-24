@@ -1,0 +1,24 @@
+.gradient-background{
+    background: linear-gradient(to top, #000000 ,#FF2800);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.gradient-background2{
+    background: linear-gradient(300deg, #FFF200, #000000, #FF2800);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.ferrari-img{
+    background-image: url(/photos/ferrari-812-3840x2160-12846.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    animation: image-animation 10s ease infinite;
+}
+
+.engine-img{
+    background-image: url(/photos/812\ Competizione\ engine.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
